@@ -1,0 +1,375 @@
+* {
+  margin: 0px;
+}
+/*Related to DashBoard*/
+
+.section-20 {
+  /* width: 20%;
+  background: linear-gradient(#084a55, #141F40);
+  display: inline-block;
+  vertical-align: top;
+  height: 100vh;
+  padding-top: 10px; */
+  /* display: inline-block;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%); */
+  position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    font-size: 25px;
+    color: white;
+    width: 70%;
+}
+
+.navigation-bar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  background: linear-gradient(#084a55, #141F40);
+  display: inline-block;
+  vertical-align: top;
+  height: 100vh;
+  padding-top: 10px;
+
+
+}
+
+.navigation-bar button{
+  width: 100%;
+  background: transparent;
+  border: 0;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+
+.section-80 {
+  width: 100%;
+  background: linear-gradient(#141F40, #000000);
+  display: inline-block;
+  height: 100vh;
+}
+
+.dashboard-header, .dashboard-body {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/*------x--------x-------*/
+
+/*-----About Us Page------*/
+.About_UsFull h1{
+  background: linear-gradient(to right, #f32170, 
+              #ff6b08, #cf23cf, #eedd44); 
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text; 
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.About_UsFull h2{
+  background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 40px;
+border-radius: 25px;
+padding-left: 10px;  
+text-align: center;
+}
+.About_UsFull p{
+  color:  wheat;
+  font-family: 'Rubik', sans-serif;
+  background: #360033;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 25px;
+padding: 20px;  
+text-align: justify;
+}
+
+.aboutUsPage {
+  background-image: url(../../replicate-prediction-o4kudnzbgwjgiggi3pj42vw6ci.png);
+  background-size: cover;
+}
+
+
+
+/*------x--------x-------*/
+
+.Faq {
+  background-image: url(../../replicate-prediction-o4kudnzbgwjgiggi3pj42vw6ci.png);
+   -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  z-index: 0;
+  
+}
+
+/* .Faq-text {
+  
+   z-index: 2;
+  font-size: large;
+  color: rgb(191, 0, 255);
+  background: transparent;
+  height: 100vh;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+} */
+
+.HomePage {
+  background-image: url(../../replicate-prediction-o4kudnzbgwjgiggi3pj42vw6ci.png);
+  background-size: cover;
+}
+
+  body{
+    /*background-image: url('https://i.pinimg.com/736x/73/97/55/739755622c248729cfe14c8bc828ef41.jpg');*/
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+
+  .form-control::placeholder {
+      color: white;
+  }
+  .headding{
+    background: linear-gradient(to right, #f32170, 
+              #ff6b08, #cf23cf, #eedd44); 
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text; 
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Ubuntu', sans-serif;
+    
+  }
+  .Home-subheadding{
+    background: linear-gradient(to right, #f32170, 
+              #ff6b08, #cf23cf, #eedd44); 
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text; 
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .footer_container{
+    background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+  }
+  .content_middle>h2{
+    text-align: center;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 50px;
+  }
+  .content_middle{
+    color: wheat;
+    font-size: 30px;
+    font-family: 'Edu TAS Beginner', cursive;
+    text-align: justify ;
+    
+  }
+  .container_WhyUs{
+    color: wheat;
+    font-size: 20px;
+  }
+  .container_WhyUs h3{
+    color: seagreen
+  }
+
+  .container{
+      margin-left: "0px";
+      margin-right: "0px";
+      padding-left:" 0px";
+      padding-right: "0px";
+  }
+
+  .popup {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    }
+    
+    .popup-inner {
+    background-color: rgb(23, 8, 59);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    width: 40%;
+    }
+    
+    .popup-inner h2 {
+    margin-top: 0;
+    color:#9efcd5;
+    }
+    
+    .popup-inner label {
+    display: block;
+    margin-bottom: 10px;
+    color: #9efcd5;
+    }
+    
+    .popup-inner input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    }
+    
+    .popup-inner button[type="submit"],
+    .popup-inner button[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+    
+    .popup-inner button[type="submit"]:hover,
+    .popup-inner button[type="button"]:hover {
+    background-color: #45a049;
+    }
+    
+    .popup-inner button[type="submit"] {
+    margin-top: 20px;
+    }
+    
+    .popup-inner button[type="button"] {
+    margin-top: 20px;
+    background-color: #f44336;
+    }
+    
+    .popup-inner button[type="button"]:hover {
+    background-color: #da190b;
+    }
+    
+    .popup-inner button[type="submit"]:disabled {
+    background-color: #bfbfbf;
+    color: #ffffff;
+    cursor: not-allowed;
+    }
+    
+    .popup-inner button[type="button"]:disabled {
+    background-color: #bfbfbf;
+    color: #ffffff;
+    cursor: not-allowed;
+    }
+    .popu{
+      align-content: center;
+    }
+.buttonn{
+  position: absolute !important;
+  left: 20% !important;
+}
+.piechart{
+  width: 200px;
+  align-content: center;
+}
+
+.Heading_About_Us>h1 {
+  background: linear-gradient(to right, #f32170, 
+              #ff6b08, #cf23cf, #eedd44); 
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text; 
+      font-size: 100px;
+      text-align: center;
+}
+
+.Faq>h1{
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  background: linear-gradient(to right, #f32170, 
+              #ff6b08, #cf23cf, #eedd44); 
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text; 
+}
+
+
+
+.Faq p{
+  color:  wheat;
+  font-family: 'Rubik', sans-serif;
+  background: #360033;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 25px;
+padding: 20px;  
+text-align: justify;
+
+}
+.Faq h2{
+  background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 40px;
+border-radius: 25px;
+padding-left: 10px;  
+text-align: center;
+}
+
+.Home_contentx>h3{
+  background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 80px;
+border-radius: 25px;
+padding-left: 10px;  
+text-align: center;
+}
+.Home_contentx>p{
+  color:  wheat;
+  font-family: 'Rubik', sans-serif;
+  background: #360033;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 25px;
+padding: 20px;  
+text-align: justify;
+}
+
+.container_WhyUs>h2{
+  text-align: center;
+  background: linear-gradient(to right, #f32170, 
+              #ff6b08, #cf23cf, #eedd44); 
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text; 
+      font-size: 90px;
+      margin-bottom: 30px;
+      font-family: 'Noto Sans', sans-serif;
+}
+
+.dashtable{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 15%;
+  margin-right:30%;
+}
