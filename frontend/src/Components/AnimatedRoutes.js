@@ -15,6 +15,7 @@ import {
 } from 'react-router-dom'
 import React from 'react'
 import MainHeader from '../Components/MainHeader';
+import LoanPredictor from '../Pages/LoanPredictor';
 
 function AnimatedRoutes() {
     const location=useLocation();
@@ -27,7 +28,7 @@ function AnimatedRoutes() {
         <Route path='/about' element = {<AboutUs/>}/>
         <Route path='/pricing' element = {<Pricing/>}/>
         <Route path='/faq' element = {<FAQ/>}/> */
-        {}
+        <Route path='/loanpredict' element={<LoanPredictor/>}/>
     </Routes>
     </AnimatePresence>
   );
